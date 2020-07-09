@@ -18,14 +18,8 @@ public class Main {
         int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         // ③ arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
         // 要素が奇数の場合には「nは奇数です。」と出力されます。
-        for (int i = 0; i < arr.length; i++) {
-//            System.out.println(arr[i]);
-            if (arr[i] % 2 == 0){
-                System.out.println(arr[i]);
-            }
-            else{
-                System.out.println(arr[i] + "は奇数です。");
-            }
+        for (int num = 0; num < arr.length; num++) {
+            isOdd(num);
         }
     }
 
@@ -36,5 +30,12 @@ public class Main {
     // last_name と first_name を連結した値を返り値とする変数を定義しなさい。
     public static String getName(String firstName, String lastName) {
         return lastName + firstName;
+    }
+
+    // 奇数の判定を行う。
+    public static void isOdd(int num) {
+        if (num % 2 != 0) {
+            System.out.println(num + "は奇数です。");
+        }
     }
 }
