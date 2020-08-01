@@ -1,0 +1,30 @@
+
+.header{
+	background-color: gray;
+}
+
+.lab1{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+.lab2{
+	padding: 10px;
+	font-size: 10px;
+}
+
+.jsptest{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer{
+	background-color: gray;
+}
+
+.hoge{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
