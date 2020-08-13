@@ -4,24 +4,31 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
-<title>Insert title here</title>
+<link rel="stylesheet" href="css/style.css">
+<title>Check3</title>
 </head>
 <body>
+
 	<%@ include file="header.jsp"%>
+
 	<div class = "jsptest">
+
 		<table>
 			<tr>
 				<th>name</th>
-				<td><input type = "text" name = "name" /></td>
+				<td><input type = "text" name = "name" ></td>
 			</tr>
 			<tr>
 				<th>id</th>
-				<td><input type = "text" name = "id" /></td>
+				<td><input type = "text" name = "id" ></td>
 			</tr>
 		</table>
+
+		<!-- <p><input type ="submit" value = "login"></p> -->
+
 	</div>
 
 	<%@ include file="footer.jsp"%>
+
 </body>
 </html>
