@@ -1,0 +1,7 @@
+tomcatDir=C:/Users/akira/Downloads/pleiades-2020-09-java-win-64bit-jre_20200920/pleiades/tomcat/8
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=C:/Users/akira/Downloads/pleiades-2020-09-java-win-64bit-jre_20200920/pleiades/tomcat/8/conf/Catalina/localhost
+tomcatVersion=tomcatV8
+computeSourcePath=true
+tomcatConfigFile=C:/Users/akira/Downloads/pleiades-2020-09-java-win-64bit-jre_20200920/pleiades/tomcat/8/conf/server.xml
